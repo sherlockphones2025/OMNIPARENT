@@ -1,151 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Omni Parent – iPhone Activity Triage for Parents</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        background: #f7f7f7;
-        color: #333;
-        line-height: 1.6;
-    }
-    header {
-        background: white;
-        text-align: center;
-        padding: 20px 10px;
-        border-bottom: 1px solid #ddd;
-    }
-    header img {
-        max-width: 260px;
-        height: auto;
-    }
-    .hero {
-        text-align: center;
-        padding: 20px;
-        background: #fff;
-    }
-    .hero img {
-        max-width: 350px;
-        width: 90%;
-        border-radius: 10px;
-    }
-    h1, h2 {
-        text-align: center;
-        font-weight: bold;
-    }
-    .section {
-        background: white;
-        margin: 20px auto;
-        padding: 20px;
-        max-width: 850px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .service {
-        margin-bottom: 25px;
-    }
-    .service h3 {
-        margin-bottom: 8px;
-        color: #3b3bbf;
-    }
-    .detective-img {
-        text-align: center;
-        padding: 20px;
-    }
-    .detective-img img {
-        max-width: 280px;
-        width: 90%;
-        border-radius: 10px;
-    }
-    .cta {
-        text-align: center;
-        padding: 30px;
-    }
-    .cta a {
-        background: linear-gradient(45deg, #3b7cff, #c93bff);
-        padding: 15px 25px;
-        color: white;
-        font-size: 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        display: inline-block;
-    }
-    footer {
-        text-align: center;
-        padding: 20px;
-        font-size: 14px;
-        color: #777;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni Parent: iPhone Activity Triage Service</title>
+    
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Use Inter font for a professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f7f7f7; }
+        .shadow-deep { box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); }
+        .gradient-bg {
+            /* Professional blue gradient */
+            background: linear-gradient(90deg, #1d4ed8 0%, #3b82f6 100%);
+        }
+    </style>
 </head>
+<body class="antialiased text-gray-800">
 
-<body>
-
-<header>
-    <img src="Gemini_Generated_Image_1x9gjl1x9gjl1x9g.png" alt="Omni Parent Logo">
-</header>
-
-<div class="hero">
-    <img src="Gemini_Generated_Image_k23ua8k23ua8k23u.png" alt="Parents Hero Image">
-    <h1>Trust, Verify, Protect</h1>
-    <p>Your child’s safety matters — let me help you quietly and professionally verify what’s really happening on their iPhone.</p>
-</div>
-
-<div class="section">
-    <h2>iPhone Activity Triage Service</h2>
-    <p>I provide fast, private, non-invasive iPhone activity reporting so parents can confirm what's happening on a child’s device — without spying, hacking, or accessing content.</p>
-
-    <div class="service">
-        <h3>📌 Deleted Text Activity Report</h3>
-        <ul>
-            <li>Identifies **when texts or iMessages were deleted**</li>
-            <li>Shows **how many messages** were deleted in each cluster</li>
-            <li>Shows the **exact timestamps** of deletion activity</li>
-            <li>Detects full “Deleted Chat Threads” and provides the associated phone number</li>
-            <li>Delivered as a clean, parent-friendly Excel or PDF report</li>
-        </ul>
+    <!-- 1. OMNI PARENT Banner Section (TOP IMAGE) -->
+    <div class="gradient-bg py-4 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+            <!-- Reference to the banner image -->
+            <img src="OMNI_PARENT_Banner.png" alt="Omni Parent Logo and Branding" 
+                 class="mx-auto h-12 sm:h-16"
+                 onerror="this.onerror=null; this.src='https://placehold.co/300x50/ffffff/333333?text=OMNI+PARENT+LOGO';"
+            >
+        </div>
     </div>
 
-    <div class="service">
-        <h3>📊 App Usage & Activity Audit</h3>
-        <ul>
-            <li>Shows every app used and the **exact date/time** it was opened</li>
-            <li>Displays how long each app stayed active in foreground</li>
-            <li>Provides patterns: late-night usage, high-risk apps, suspicious time gaps</li>
-            <li>Includes an optional safety summary section for parents</li>
-        </ul>
-        <p><strong>Sample Report:</strong></p>
-        <img src="APPUSAGEREPORTEXAMPLE.png" style="max-width:100%; border-radius:10px;">
-    </div>
-</div>
+    <!-- Header / Nav (Minimalist) -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-700">
+                Sherlock Phones <span class="text-sm font-normal text-gray-500">Forensics</span>
+            </div>
+            <a href="mailto:sherlockphones2025@gmail.com" class="text-sm font-semibold text-blue-600 hover:text-blue-800 transition duration-150">
+                Contact: sherlockphones2025@gmail.com
+            </a>
+        </div>
+    </header>
 
-<div class="detective-img">
-    <img src="ChatGPT Image Nov 24, 2025, 03_20_32 AM.png" alt="Sherlock iPhone Detective">
-</div>
+    <!-- 2. Hero Section: Trust, Verify, Protect -->
+    <main class="pt-12 pb-20 sm:pt-16 sm:pb-24 lg:pt-20 lg:pb-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
+                
+                <!-- Hero Text and CTA -->
+                <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                        Trust, Verify, <span class="text-blue-600">Protect</span>
+                    </h1>
+                    <p class="mt-4 text-xl text-gray-600">
+                        Your child’s safety matters — let me help you quietly and professionally verify what’s really happening on their iPhone.
+                    </p>
+                    
+                    <!-- Call to Action -->
+                    <div class="mt-8">
+                        <a id="cta" href="mailto:sherlockphones2025@gmail.com" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-xl shadow-lg text-white gradient-bg hover:bg-blue-700 transform transition duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50">
+                            Email Me to Get Started 📧
+                        </a>
+                        <p class="mt-3 text-sm text-gray-500">
+                            <a href="mailto:sherlockphones2025@gmail.com" class="text-blue-600 hover:underline font-medium">sherlockphones2025@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
 
-<div class="section">
-    <h2>What I Do NOT Do</h2>
-    <ul>
-        <li>❌ I do NOT spy, hack, live-monitor, or install anything</li>
-        <li>❌ I do NOT access your child’s iCloud or Apple account</li>
-        <li>❌ I do NOT view or accept photos, videos, recordings, or private content</li>
-        <li>❌ I do NOT read message content — only behavior metadata</li>
-        <li>❌ I do NOT access any device directly</li>
-    </ul>
+                <!-- Hero Image: Parents Hero Image (Updated Filename) -->
+                <div class="lg:col-span-6 mt-12 lg:mt-0 flex justify-center">
+                    <img src="familytrustprotect.png" 
+                         alt="Parents embracing with text: Trust, Verify, Protect" 
+                         class="w-full max-w-md rounded-2xl shadow-deep border-4 border-white"
+                         onerror="this.onerror=null; this.src='https://placehold.co/600x400/3b82f6/ffffff?text=Parents+Hero+Image';"
+                    >
+                </div>
+            </div>
+        </div>
+    </main>
 
-    <p>This is a **non-invasive, metadata-only, parent-authorized triage service** designed to help good parents keep good kids safe.</p>
-</div>
+    <!-- Service Details Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-10">iPhone Activity Triage Service</h2>
+            <p class="text-center text-xl text-gray-600 max-w-4xl mx-auto mb-12">
+                I provide fast, private, non-invasive iPhone activity reporting so parents can confirm what's happening on a child’s device — without spying, hacking, or accessing content.
+            </p>
 
-<div class="cta">
-    <a href="mailto:sherlockphones2025@gmail.com">Email Me to Get Started</a>
-</div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Deleted Text Activity Report -->
+                <div class="p-8 bg-blue-50 rounded-xl shadow-md border-t-4 border-blue-600">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4 flex items-center">
+                        <span class="text-3xl mr-3">📌</span>
+                        Deleted Text Activity Report
+                    </h3>
+                    <ul class="list-none space-y-3 text-gray-700 ml-4">
+                        <li>Identifies **when texts or iMessages were deleted**</li>
+                        <li>Shows **how many messages** were deleted in each cluster</li>
+                        <li>Shows the **exact timestamps** of deletion activity</li>
+                        <li>Detects full “Deleted Chat Threads” and provides the associated phone number</li>
+                        <li>Delivered as a clean, parent-friendly Excel or PDF report</li>
+                    </ul>
+                </div>
 
-<footer>
-    Omni Parent © 2025 — Private, Confidential iPhone Activity Triage
-</footer>
+                <!-- App Usage & Activity Audit -->
+                <div class="p-8 bg-gray-100 rounded-xl shadow-md border-t-4 border-gray-400">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                        <span class="text-3xl mr-3">📊</span>
+                        App Usage & Activity Audit
+                    </h3>
+                    <ul class="list-none space-y-3 text-gray-700 ml-4">
+                        <li>Shows every app used and the **exact date/time** it was opened</li>
+                        <li>Displays how long each app stayed active in foreground</li>
+                        <li>Provides patterns: late-night usage, high-risk apps, suspicious time gaps</li>
+                        <li>Includes an optional safety summary section for parents</li>
+                        <li>Sample Report: (Mock content for visual appeal - "Sample Report" text included here)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. What I Do NOT Do (Integrity Statement) with Sherlock Image -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
+                
+                <!-- Sherlock Image (Left side on large screen) -->
+                <div class="lg:col-span-4 flex justify-center order-1 mt-12 mb-8 lg:mt-0 lg:mb-0">
+                    <img src="sherlockholmesIPHONE.jpg" 
+                         alt="Sherlock Holmes examining an iPhone" 
+                         class="w-full max-w-xs rounded-2xl shadow-deep object-cover border-4 border-white"
+                         onerror="this.onerror=null; this.src='https://placehold.co/400x600/60a5fa/ffffff?text=Forensic+Image';"
+                    >
+                </div>
+
+                <!-- Integrity Text Content -->
+                <div class="lg:col-span-8 space-y-6 order-2 text-center lg:text-left">
+                    <h2 class="text-3xl font-bold text-red-600 mb-6">What I Do NOT Do</h2>
+                    <div class="bg-white p-8 rounded-xl shadow-deep border-b-4 border-red-500">
+                        <ul class="list-none space-y-3 text-left text-lg text-gray-700">
+                            <li class="flex items-center text-red-600 font-semibold">
+                                <span class="text-2xl mr-3">❌</span> I do NOT spy, hack, live-monitor, or install anything
+                            </li>
+                            <li class="flex items-center text-red-600 font-semibold">
+                                <span class="text-2xl mr-3">❌</span> I do NOT access your child’s iCloud or Apple account
+                            </li>
+                            <li class="flex items-center text-red-600 font-semibold">
+                                <span class="text-2xl mr-3">❌</span> I do NOT view or accept photos, videos, recordings, or private content
+                            </li>
+                            <li class="flex items-center text-red-600 font-semibold">
+                                <span class="text-2xl mr-3">❌</span> I do NOT read message content — only behavior metadata
+                            </li>
+                            <li class="flex items-center text-red-600 font-semibold">
+                                <span class="text-2xl mr-3">❌</span> I do NOT access any device directly
+                            </li>
+                        </ul>
+                        <p class="mt-8 text-xl text-blue-700 font-semibold">
+                            This is a **non-invasive, metadata-only, parent-authorized triage service** designed to help good parents keep good kids safe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer / Final CTA and Contact Info -->
+    <footer class="bg-gray-800 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <h3 class="text-2xl font-bold text-white mb-4">Contact & Social</h3>
+            
+            <!-- Email Link -->
+            <a href="mailto:sherlockphones2025@gmail.com" class="text-blue-400 hover:text-blue-300 font-semibold text-lg transition block mb-4">
+                sherlockphones2025@gmail.com
+            </a>
+
+            <!-- Facebook Link -->
+            <a href="https://www.facebook.com/profile.php?id=61584351031065" target="_blank" class="inline-flex items-center text-white hover:text-blue-400 transition mb-6">
+                <!-- Simple Facebook Icon SVG -->
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.77l-.44 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                </svg>
+                Find us on Facebook
+            </a>
+            
+            <p class="mt-2 text-sm">
+                Omni Parent © 2025 — Private, Confidential iPhone Activity Triage
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>
